@@ -138,7 +138,7 @@
 	<ntasks>
 	  <ntasks_atm>288</ntasks_atm>
 	  <ntasks_lnd>144</ntasks_lnd>
-	  <ntasks_rof>40</ntasks_rof>
+	  <ntasks_rof>144</ntasks_rof>
 	  <ntasks_ice>108</ntasks_ice>
 	  <ntasks_ocn>288</ntasks_ocn>
 	  <ntasks_glc>36</ntasks_glc>
