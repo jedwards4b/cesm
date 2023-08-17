@@ -303,9 +303,11 @@ def single_case(opts_dict, case_flags, stat_dir):
         ret = os.system(command)
     else:
         if opts_dict["uf"] == True:
-            command = "./xmlchange --file env_run.xml --id STOP_OPTION --val nsteps"
+            command = "./xmlchange STOP_OPTION=nsteps"
             ret = os.system(command)
-            command = "  ./xmlchange --file env_run.xml --id STOP_N --val 9"
+            command = "./xmlchange ROF_NCPL=48"
+            ret = os.system(command)
+            command = "./xmlchange STOP_N=9"
             ret = os.system(command)
         else:
             command = "./xmlchange --file env_run.xml --id STOP_OPTION --val nmonths"
