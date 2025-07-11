@@ -56,9 +56,9 @@
 
 [submodule "cam"]
         path = components/cam
-        url = https://www.github.com/ESCOMP/CAM
+        url = https://www.github.com/PeterHjortLauritzen/CAM
         fxDONOTUSEurl = https://www.github.com/ESCOMP/CAM
-        fxtag = cam6_4_100
+        fxtag = cam6_4_089_enthalpy0.1
         fxrequired = ToplevelRequired
 
 [submodule "clm"]
@@ -98,10 +98,10 @@
 
 [submodule "cmeps"]
         path = components/cmeps
-        url = https://github.com/ESCOMP/CMEPS.git
+        url = https://github.com/jedwards4b/CMEPS.git
         fxDONOTUSEurl = https://github.com/ESCOMP/CMEPS.git
         fxrequired = ToplevelRequired
-        fxtag = cmeps1.1.2
+        fxtag = cmeps1.1.4-enthalpy_corrections
 
 [submodule "rtm"]
         path = components/rtm
